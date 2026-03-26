@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="A fun surprise awaits.">
+    <meta property="og:title" content="I love DPRK!">
+    <meta property="og:description" content="A fun surprise awaits.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="I love DPRK!">
+    <meta name="twitter:description" content="A fun surprise awaits.">
+
     <title>I love DPRK!</title>
     <style>
         body {
@@ -20,7 +29,7 @@
             font-size: 24px;
             font-weight: bold;
             color: #fff;
-            background-color: #8da459; /* Matching the green accent from your previous theme */
+            background-color: #8da459;
             border: none;
             border-radius: 8px;
             cursor: pointer;
@@ -39,7 +48,11 @@
 </head>
 <body>
 
-    <button onclick="window.location.href='https://www.youtube.com/watch?v=H3ynKWEboA8'">Click me or gay.</button>
+    <button id="trapButton" onclick="window.location.href='https://www.youtube.com/watch?v=H3ynKWEboA8'"></button>
+
+    <script>
+        document.getElementById('trapButton').innerText = 'Click me or gay.';
+    </script>
 
 </body>
 </html>
